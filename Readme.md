@@ -112,5 +112,22 @@ DPkg::Post-Invoke {
 ```bash
 /usr/local/sbin/remove-pbs-nag.sh
 ```
+5. Check that backups exist:
 
+```shell
+ls -lt /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js.bak.*
+```
+🧠 Notes
+
+This script does not affect any Proxmox functionality — it only bypasses the UI nag.
+
+Backups are stored in the same directory as the original JS file.
+
+Be sure to clear your browser cache after patching.
+
+🛑 Disclaimer
+
+Use at your own risk. This script modifies Proxmox UI files, which could be overwritten during updates. The APT hook helps to reapply the patch automatically, but always check after major upgrades.
+
+This is intended for homelab or non-production environments where the subscription nag is undesired.
 
