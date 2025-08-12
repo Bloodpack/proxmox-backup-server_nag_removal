@@ -4,7 +4,7 @@
 ################################################
 # Copyright (c) 2025 Bloodpack
 # Author: Bloodpack 
-# License: GPL-3.0 license
+# License: MIT license
 # Follow or contribute on GitHub here:
 # https://github.com/Bloodpack/proxmox_nag_removal.git
 #################################
