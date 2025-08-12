@@ -1,3 +1,18 @@
+# Script to remove the Proxmox Backup Server no subscription nag.
+################################################
+# !!!PLEASE USE THIS SCRIPT ONLY FOR HOMELAB!!!#
+################################################
+# Copyright (c) 2025 Bloodpack
+# Author: Bloodpack 
+# License: GPL-3.0 license
+# Follow or contribute on GitHub here:
+# https://github.com/Bloodpack/proxmox_nag_removal.git
+#################################
+# VERSION: 2.00 from 08.08.2025 #
+#################################
+
+
+
 #!/bin/bash
 
 JS_FILE="/usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js"
